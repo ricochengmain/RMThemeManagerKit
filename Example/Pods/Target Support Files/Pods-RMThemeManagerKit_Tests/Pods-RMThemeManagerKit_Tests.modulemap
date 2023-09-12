@@ -1,0 +1,6 @@
+framework module Pods_RMThemeManagerKit_Tests {
+  umbrella header "Pods-RMThemeManagerKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

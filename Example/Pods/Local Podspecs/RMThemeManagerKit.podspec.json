@@ -1,0 +1,22 @@
+{
+  "name": "RMThemeManagerKit",
+  "version": "0.1.0",
+  "summary": "A short description of RMThemeManagerKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ricocheng/RMThemeManagerKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ricocheng": "ricocheng@nefer.com.tw"
+  },
+  "source": {
+    "git": "https://github.com/ricocheng/RMThemeManagerKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "RMThemeManagerKit/Classes/**/*"
+}

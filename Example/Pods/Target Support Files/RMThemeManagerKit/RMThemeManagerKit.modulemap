@@ -1,0 +1,6 @@
+framework module RMThemeManagerKit {
+  umbrella header "RMThemeManagerKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
