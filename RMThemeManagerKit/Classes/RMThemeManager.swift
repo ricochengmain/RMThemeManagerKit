@@ -52,11 +52,13 @@ open class RMThemeManager {
     internal static let theme_index: String = "theme_index"
 }
 
+private var identifierKey: UInt8 = 0
+
 extension UIView {
     
     public var theme: (_ currentThemeModel: RMThemeColorModel) -> Void {
         set {
-            objc_setAssociatedObject(self, &AssociatedKey.identifier, newValue, .OBJC_ASSOCIATION_COPY_NONATOMIC)
+            objc_setAssociatedObject(self, &identifierKey, newValue, .OBJC_ASSOCIATION_COPY_NONATOMIC)
             NotificationCenter.default.addObserver(self, selector: #selector(change(notification:)), name: NSNotification.Name(rawValue: RMThemeManager.change_theme), object: nil)
             
             DispatchQueue.main.async {
@@ -65,12 +67,8 @@ extension UIView {
         }
         
         get {
-            return objc_getAssociatedObject(self, &AssociatedKey.identifier) as! (RMThemeColorModel) -> Void
+            return objc_getAssociatedObject(self, &identifierKey) as! (RMThemeColorModel) -> Void
         }
-    }
-    
-    private struct AssociatedKey {
-        static var identifier: String = "Theme_Extension"
     }
     
     @objc private func change(notification: NSNotification) {

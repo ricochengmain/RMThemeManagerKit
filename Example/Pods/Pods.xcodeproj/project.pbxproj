@@ -41,12 +41,12 @@
 		10B7DDCF28E7004E640580E69F9EE4A5 /* RMThemeManagerKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RMThemeManagerKit.modulemap; sourceTree = "<group>"; };
 		1200E2DB00EA0127C54AD3D5A9EFF4D4 /* Pods-RMThemeManagerKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RMThemeManagerKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		15B02550A7EB83AD9F16892F7402C5A9 /* Pods-RMThemeManagerKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RMThemeManagerKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		16916A671040BF723B58B3800D307E2C /* Pods-RMThemeManagerKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RMThemeManagerKit_Example"; path = Pods_RMThemeManagerKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16916A671040BF723B58B3800D307E2C /* Pods_RMThemeManagerKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMThemeManagerKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		174738B92AB012C800713644 /* RMThemeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RMThemeManager.swift; path = RMThemeManagerKit/Classes/RMThemeManager.swift; sourceTree = "<group>"; };
 		238112322820F79044119F1668740CA9 /* RMThemeManagerKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RMThemeManagerKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2B052E9322B78F5E5A82EADC9F56AA13 /* Pods-RMThemeManagerKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RMThemeManagerKit_Example-dummy.m"; sourceTree = "<group>"; };
 		2D296829A236E0C56AE0F5DCB6382E0A /* RMThemeManagerKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RMThemeManagerKit.debug.xcconfig; sourceTree = "<group>"; };
-		345CE3E8EA1C8FBD4AD526654D5A0D16 /* RMThemeManagerKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RMThemeManagerKit; path = RMThemeManagerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		345CE3E8EA1C8FBD4AD526654D5A0D16 /* RMThemeManagerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RMThemeManagerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		421E1C8731F4A2D8E505F526D0431895 /* Pods-RMThemeManagerKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RMThemeManagerKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5D1F3A6B1EEBC2B248DF5C0A8FE18E68 /* Pods-RMThemeManagerKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RMThemeManagerKit_Example.modulemap"; sourceTree = "<group>"; };
 		6B0FAF64F80E171894568E1D94450E71 /* Pods-RMThemeManagerKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RMThemeManagerKit_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 		C401D0008EEF17FD342CFE7915F4DFF0 /* Pods-RMThemeManagerKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RMThemeManagerKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D2A0035806621315FF22AF58767DF26B /* Pods-RMThemeManagerKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RMThemeManagerKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DD2E0ADF6546002A04A6B432E6EC4428 /* RMThemeManagerKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMThemeManagerKit-umbrella.h"; sourceTree = "<group>"; };
-		DE276DB15824F31717C62ADE776F2E16 /* Pods-RMThemeManagerKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RMThemeManagerKit_Tests"; path = Pods_RMThemeManagerKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE276DB15824F31717C62ADE776F2E16 /* Pods_RMThemeManagerKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMThemeManagerKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F21F7267958423674F3FB640812EC477 /* Pods-RMThemeManagerKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RMThemeManagerKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		F345A2375159FDDEACCBF2AA172C7664 /* RMThemeManagerKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RMThemeManagerKit.release.xcconfig; sourceTree = "<group>"; };
 		F51888B848EFCA24AF5BC66454407F00 /* Pods-RMThemeManagerKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RMThemeManagerKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -123,9 +123,9 @@
 		0E0923747F81CE1350C3DCF778505D93 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				16916A671040BF723B58B3800D307E2C /* Pods-RMThemeManagerKit_Example */,
-				DE276DB15824F31717C62ADE776F2E16 /* Pods-RMThemeManagerKit_Tests */,
-				345CE3E8EA1C8FBD4AD526654D5A0D16 /* RMThemeManagerKit */,
+				16916A671040BF723B58B3800D307E2C /* Pods_RMThemeManagerKit_Example.framework */,
+				DE276DB15824F31717C62ADE776F2E16 /* Pods_RMThemeManagerKit_Tests.framework */,
+				345CE3E8EA1C8FBD4AD526654D5A0D16 /* RMThemeManagerKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -269,7 +269,7 @@
 			);
 			name = "Pods-RMThemeManagerKit_Tests";
 			productName = Pods_RMThemeManagerKit_Tests;
-			productReference = DE276DB15824F31717C62ADE776F2E16 /* Pods-RMThemeManagerKit_Tests */;
+			productReference = DE276DB15824F31717C62ADE776F2E16 /* Pods_RMThemeManagerKit_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		446AB13788AF8580E5B820AC09CB83B7 /* Pods-RMThemeManagerKit_Example */ = {
@@ -288,7 +288,7 @@
 			);
 			name = "Pods-RMThemeManagerKit_Example";
 			productName = Pods_RMThemeManagerKit_Example;
-			productReference = 16916A671040BF723B58B3800D307E2C /* Pods-RMThemeManagerKit_Example */;
+			productReference = 16916A671040BF723B58B3800D307E2C /* Pods_RMThemeManagerKit_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F9A175EA9801B4BFED7329B840BDBB40 /* RMThemeManagerKit */ = {
@@ -306,7 +306,7 @@
 			);
 			name = RMThemeManagerKit;
 			productName = RMThemeManagerKit;
-			productReference = 345CE3E8EA1C8FBD4AD526654D5A0D16 /* RMThemeManagerKit */;
+			productReference = 345CE3E8EA1C8FBD4AD526654D5A0D16 /* RMThemeManagerKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -316,7 +316,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1500;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -422,7 +422,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RMThemeManagerKit_Tests/Pods-RMThemeManagerKit_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RMThemeManagerKit_Tests/Pods-RMThemeManagerKit_Tests.modulemap";
@@ -456,7 +456,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RMThemeManagerKit_Example/Pods-RMThemeManagerKit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RMThemeManagerKit_Example/Pods-RMThemeManagerKit_Example.modulemap";
@@ -489,7 +489,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RMThemeManagerKit_Example/Pods-RMThemeManagerKit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RMThemeManagerKit_Example/Pods-RMThemeManagerKit_Example.modulemap";
@@ -584,7 +584,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/RMThemeManagerKit/RMThemeManagerKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/RMThemeManagerKit/RMThemeManagerKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/RMThemeManagerKit/RMThemeManagerKit.modulemap";
 				PRODUCT_MODULE_NAME = RMThemeManagerKit;
@@ -616,7 +616,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RMThemeManagerKit_Tests/Pods-RMThemeManagerKit_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RMThemeManagerKit_Tests/Pods-RMThemeManagerKit_Tests.modulemap";
@@ -649,7 +649,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/RMThemeManagerKit/RMThemeManagerKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/RMThemeManagerKit/RMThemeManagerKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/RMThemeManagerKit/RMThemeManagerKit.modulemap";
 				PRODUCT_MODULE_NAME = RMThemeManagerKit;

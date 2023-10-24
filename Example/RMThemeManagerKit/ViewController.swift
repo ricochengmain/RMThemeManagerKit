@@ -52,22 +52,20 @@ class ViewController: UIViewController {
 
 }
 
+private var mainColorKey: UInt8 = 0
+private var fontColorKey: UInt8 = 1
+
 extension RMThemeColorModel {
     private static var associatedKeys: [String: UInt8] = [:]
-
-    private struct AssociatedKey {
-        static var mainColor: String = "mainColor"
-        static var fontColor: String = "fontColor"
-    }
     
     var mainColor: UIColor? {
-        set { objc_setAssociatedObject(self, &AssociatedKey.mainColor, newValue, .OBJC_ASSOCIATION_COPY_NONATOMIC) }
-        get { return (objc_getAssociatedObject(self, &AssociatedKey.mainColor) as! UIColor) }
+        set { objc_setAssociatedObject(self, &mainColorKey, newValue, .OBJC_ASSOCIATION_COPY_NONATOMIC) }
+        get { return (objc_getAssociatedObject(self, &mainColorKey) as! UIColor) }
     }
 
     var fontColor: UIColor? {
-        set { objc_setAssociatedObject(self, &AssociatedKey.fontColor, newValue, .OBJC_ASSOCIATION_COPY_NONATOMIC) }
-        get { return (objc_getAssociatedObject(self, &AssociatedKey.fontColor) as! UIColor) }
+        set { objc_setAssociatedObject(self, &fontColorKey, newValue, .OBJC_ASSOCIATION_COPY_NONATOMIC) }
+        get { return (objc_getAssociatedObject(self, &fontColorKey) as! UIColor) }
     }
 
     convenience init(

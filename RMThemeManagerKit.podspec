@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RMThemeManagerKit'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '讓UIKit能夠清鬆的切換風格。'
   
   # This description is used to generate tags and improve search results.
